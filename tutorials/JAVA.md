@@ -50,7 +50,7 @@ Depois digite o comando a seguir que irá dar as permissões que o nosso arquivo
  > sudo chmod 777 /usr/share/applications/java.dektop
 
 Agora você irá navegar em Arquivos de Sistemas até o arquivo que você criou, mas o nome dele vai estar como 'Java Launcher' que foi definido no código que você colou no terminal. Click com o botão direito, em propiedades, vá em 'Launcher' localizada na barra da janela depois em 'Opções' e em seguida marque a caixa 'usar notificações de inicialização'.
-
+                                       
 Pronto agora você pode executar qualquer arquivo .jar com dois click
 
 OBS: Nano é um editor de texto que abre no terminal.
