@@ -7,7 +7,7 @@ Cansado de executar arquivos .jar no terminal?, então siga esses passos para re
 É simples primeiro basta que você crie um arquivo chamado java.desktop em /usr/share/Applications da seguinte forma:
  
  > No terminal digite:
- ~~~terminal
+ ~~~
  sudo nano /usr/share/applications/java.dektop
  ~~~
 
@@ -15,25 +15,27 @@ Nota: O terminal vai ficar um pouco diferente após o comando acima.
 
 Após ter executado o comando acima, copie o código abaixo, e cole no arquivo java.desktop que você abriu no terminal clicando com o botão direito e em colar no terminal!, se abrir alguma janela quando você clicar com o botão direito e colar, confirme a operação.
 
- > [Desktop Entry]
- >
- > Name=Java Launcher 
- >
- > Comment=Java Application Launcher
- >
- > Exec=/usr/bin/java -jar %f
- >
- > Icon=java
- >
- > Terminal=false
- >
- > Type=Application
- >
- > NoDisplay=true
- >
- > Categories=Utility
- >
- > MimeType=application/x-java-archive; 
+ ~~~
+ [Desktop Entry]
+ 
+ Name=Java Launcher 
+ 
+ Comment=Java Application Launcher
+ 
+ Exec=/usr/bin/java -jar %f
+ 
+ Icon=java
+ 
+ Terminal=false
+ 
+ Type=Application
+ 
+ NoDisplay=true
+ 
+ Categories=Utility
+ 
+ MimeType=application/x-java-archive; 
+ ~~~
 
 Para sair da interface do nano no terminal você pressiona "Ctrl + x" em seguida a tecla "s" para salvar e a tecla "Enter" para confirmar.
 
