@@ -54,3 +54,4 @@ Pronto agora você pode executar qualquer arquivo .jar com dois click
 OBS: Nano é um editor de texto que abre no terminal.
 
 Método testado em Manjaro GNU/Linux interface gráfica XFCE: 22/10/2020
+ 
